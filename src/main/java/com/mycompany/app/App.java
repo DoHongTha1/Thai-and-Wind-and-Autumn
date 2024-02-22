@@ -13,7 +13,7 @@ if (time < 10) {
 } else if (time < 18) {
   System.out.println("Good day.");
 } else {
-  System.out.println("Good evening.");
+  System.out.println("Good bro.");
 }
     }
 }
