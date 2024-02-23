@@ -28,7 +28,7 @@ if (time < 10) {
     n1.i = 2;
     n2.i = 5;
     n1.i = n2.i;
-    n2.i = 10; 
+    n2.i = 10//; 
     System.out.println(n1.i);
   }
 }
