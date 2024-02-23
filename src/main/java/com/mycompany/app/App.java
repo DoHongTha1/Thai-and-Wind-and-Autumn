@@ -33,7 +33,7 @@ if (time < 10) {
     System.out.println(n1.i);
   }
 }*/
-public class App {    
+/*public class App {    
 public static void main(String[] args) {
         Number n1 = new Number();
         Number n2 = new Number();        
@@ -43,4 +43,16 @@ public static void main(String[] args) {
         n2.i = 10; // what is n1.i?        
         n1.i = 20; // what is n2.i? 
         System.out.println(n1.i) ;
-  } }
+  } }*/
+  class  App {
+    static void f(Number m) {
+      m.i = 15;
+      }
+      public static void main(String[] args) {
+      Number n = new Number();
+      n.i = 14;
+      f(n); // what is n.i now?
+      System.out.println(n.i);
+      }
+     }
+  
