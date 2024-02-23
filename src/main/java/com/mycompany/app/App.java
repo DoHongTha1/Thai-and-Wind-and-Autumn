@@ -5,7 +5,7 @@
 
 package com.mycompany.app;
 
-public class App {
+/*public class App {
     public static void main(String[] args) {
         int time = 22;
 if (time < 10) {
@@ -16,4 +16,19 @@ if (time < 10) {
   System.out.println("Good bro.");
 }
     }
+}*/
+
+ class Number {
+      public int i;
+}
+  class App {
+  public static void main(String[] args) {
+    Number n1 = new Number();
+    Number n2 = new Number();
+    n1.i = 2;
+    n2.i = 5;
+    n1.i = n2.i;
+    n2.i = 10; 
+    System.out.println(n1.i);
+  }
 }
