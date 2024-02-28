@@ -3,8 +3,8 @@
  * Licensed under the MIT License. See LICENSE in the project root for license information.
  *---------------------------------------------------------------------------------------*/
 
-package com.mycompany.app;
 
+ package com.mycompany.app;
 /*public class App {
     public static void main(String[] args) {
         int time = 22;
@@ -18,10 +18,10 @@ if (time < 10) {
     }
 }*/
 
- class Number {
+/* class Number {
       public int i;
 }
-/*
+
   class App {
   public static void main(String[] args) {
     Number n1 = new Number();
@@ -44,7 +44,7 @@ public static void main(String[] args) {
         n1.i = 20; // what is n2.i? 
         System.out.println(n1.i) ;
   } }*/
-  class  App {
+  /*class  App {
     static void f(Number m) {
       m.i = 15;
       }
@@ -54,5 +54,24 @@ public static void main(String[] args) {
       f(n); // what is n.i now?
       System.out.println(n.i);
       }
+     }*/
+
+     
+     public class App {
+      String title;
+      String author;
+      int numPages;
+      App() { } ; // default constructor
+      public App(String t, String a, int p) {
+      title = t;
+      author = a;
+      numPages = p;
+      }
+      public static void main(String[] args) {
+      App myObj = new App("a","b",2); //New book
+      System.out.println(myObj.numPages);
+      }
      }
+
+
   
