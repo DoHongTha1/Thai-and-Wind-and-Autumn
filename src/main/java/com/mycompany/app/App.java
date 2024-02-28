@@ -3,8 +3,8 @@
  * Licensed under the MIT License. See LICENSE in the project root for license information.
  *---------------------------------------------------------------------------------------*/
 
+package com.mycompany.app;
 
- package com.mycompany.app;
 /*public class App {
     public static void main(String[] args) {
         int time = 22;
@@ -18,10 +18,9 @@ if (time < 10) {
     }
 }*/
 
-/* class Number {
+/*  class Number {
       public int i;
 }
-
   class App {
   public static void main(String[] args) {
     Number n1 = new Number();
@@ -29,7 +28,7 @@ if (time < 10) {
     n1.i = 2;
     n2.i = 5;
     n1.i = n2.i;
-    n2.i = 10//; 
+    n2.i = 10; 
     System.out.println(n1.i);
   }
 }*/
