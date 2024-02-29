@@ -1,4 +1,4 @@
-package com.mycompany.app.week3;
+package com.mycompany.app.week2;
 
 
 public class Time {
@@ -39,4 +39,4 @@ public class Time {
     }
 }
     
-}
+
