@@ -1,4 +1,4 @@
-package com.mycompany.app.Week1;
+package com.mycompany.app.week1;
 
 
 public class IfElse {
@@ -9,3 +9,4 @@ public class IfElse {
             System.out.println("Hello World");
         }
     }
+}

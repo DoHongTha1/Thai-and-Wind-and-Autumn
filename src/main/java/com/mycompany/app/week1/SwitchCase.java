@@ -1,7 +1,7 @@
-package com.mycompany.app.Week1;
+package com.mycompany.app.week1;
 
 public class SwitchCase {
-    public static void switchcase () {
+    public static void SwitchCase2 () {
         int day = 2;
         switch (day) {
             case 1:

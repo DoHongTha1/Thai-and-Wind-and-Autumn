@@ -1,5 +1,5 @@
 
-    package com.mycompany.app.Week1;
+    package com.mycompany.app.week1;
 class Number{
     public int i;
 }
@@ -16,4 +16,4 @@ public class Assignment2 {
         System.out.println("n2.i: " + n2.i);
     }
 }
-}
+
