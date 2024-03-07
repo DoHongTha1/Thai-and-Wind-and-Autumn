@@ -16,14 +16,17 @@ if (time < 10) {
  */
 
 import com.mycompany.app.week3.GlyphTest;
+import com.mycompany.app.week3.Transmogrify;
 import com.mycompany.app.week3.GlyphTest.RoundGlyph;
+import com.mycompany.app.week3.Transmogrify.Stage;
 
 class Number {
       public int i;
 }
   class App {
   public static void main(String[] args) {
-    GlyphTest Glyph = new GlyphTest();
-    RoundGlyph roundGlyph = Glyph.new RoundGlyph(5);
+    Transmogrify t = new Transmogrify();
+    Stage s = t.new Stage();
+    s.go();
   }
-}
+  }
