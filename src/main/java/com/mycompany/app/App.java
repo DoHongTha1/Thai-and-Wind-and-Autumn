@@ -15,10 +15,10 @@ if (time < 10) {
   System.out.println("Good bro.");
  */
 
-import com.mycompany.app.week3.GlyphTest;
-import com.mycompany.app.week3.Transmogrify;
-import com.mycompany.app.week3.GlyphTest.RoundGlyph;
-import com.mycompany.app.week3.Transmogrify.Stage;
+import com.mycompany.app.week3.code1.GlyphTest;
+import com.mycompany.app.week3.code1.Transmogrify;
+import com.mycompany.app.week3.code1.GlyphTest.RoundGlyph;
+import com.mycompany.app.week3.code1.Transmogrify.Stage;
 
 class Number {
       public int i;
