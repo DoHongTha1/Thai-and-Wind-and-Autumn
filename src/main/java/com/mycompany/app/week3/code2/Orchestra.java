@@ -1,44 +1,75 @@
 package com.mycompany.app.week3.code2;
 
-public 
+public class Orchestra {
+    public abstract class Intrusment {
+        abstract void play();
 
-void adjust() {
-    System.out.println("Percussion.adjust()");
-}
-}
+        String what() {
+            return "";
+        }
 
-class Stringed extends Orchestra {
-void play() {
-    System.out.println("Stringed.play()");
-}
+        abstract void adjust();
+    }
 
-String what() {
-    return "Stringed";
-}
+    public class Wind extends Intrusment {
+        public void play() {
+            System.out.println("Wind.play() abc ");
+        }
 
-void adjust() {
-    System.out.println("Stringed.adjust()");
-}
-}
+        String what() {
+            return "Wind";
+        }
 
-class Woodwind extends Wind {
-void play() {
-    System.out.println("Woodwind.play()");
-}
+        void adjust() {
+            System.out.println("Wind.adjust())");
+        }
+    }
 
-String what() {
-    return "Woodwind";
-}
-}
+    class Percussion extends Orchestra {
+        void play() {
+            System.out.println("Percussion.play()");
+        }
 
-class Brass extends Wind {
-void play() {
-    System.out.println("Brass.play()");
-}
+        String what() {
+            return "Percussion";
+        }
 
-String what() {
-    return "Brass";
-}
-}
-    
+        void adjust() {
+            System.out.println("Percussion.adjust()");
+        }
+    }
+
+    class Stringed extends Orchestra {
+        void play() {
+            System.out.println("Stringed.play()");
+        }
+
+        String what() {
+            return "Stringed";
+        }
+
+        void adjust() {
+            System.out.println("Stringed.adjust()");
+        }
+    }
+
+    class Woodwind extends Wind {
+        public void play() {
+            System.out.println("Woodwind.play()");
+        }
+
+        String what() {
+            return "Woodwind";
+        }
+    }
+
+    class Brass extends Wind {
+        public void play() {
+            System.out.println("Brass.play()");
+        }
+
+        String what() {
+            return "Brass";
+        }
+    }
 }

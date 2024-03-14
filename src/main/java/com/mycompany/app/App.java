@@ -19,14 +19,18 @@ import com.mycompany.app.week3.code1.GlyphTest;
 import com.mycompany.app.week3.code1.Transmogrify;
 import com.mycompany.app.week3.code1.GlyphTest.RoundGlyph;
 import com.mycompany.app.week3.code1.Transmogrify.Stage;
+import com.mycompany.app.week3.code2.Orchestra;
+import com.mycompany.app.week3.code2.Orchestra.Wind;
 
 class Number {
-      public int i;
+  public int i;
 }
-  class App {
+
+class App {
   public static void main(String[] args) {
-    Transmogrify t = new Transmogrify();
-    Stage s = t.new Stage();
-    s.go();
+      Orchestra a = new Orchestra();
+      Wind wind = a.new Wind();
+      wind.play();
+      
   }
-  }
+}
